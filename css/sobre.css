@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    color: #434343;
+}
+
+.logo {
+  height: 200px;
+  margin-top: -130px;
+  text-align: center;
+}
+
+.logo img {
+    margin-top: -50px;
+    width: 10px;
+    opacity: 0.1;    
+}
+
+.logo p {
+    margin-top: -280px;
+    margin-left: 40px;
+    font-size: 55px;
+    color: #00349A;    
+    font-family: 'Lato', sans-serif;    
+}
+
+ul {
+    height: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:#ff6600;  
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: bold;
+    margin-top: 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 30px;   
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
+main.cards {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px 20px 0;
+    margin-top: -50px;
+    z-index: 0;
+}
+
+section {
+    position: relative;
+    width: 330px;
+    height: 500px;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fundo {
+    width: 330px;
+    height: 160px;
+    background:#ff6600;
+    border-radius: 5px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fundo .branco {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    position: relative;
+    margin-left: 10px;
+}
+
+.fundo img {
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin: 5px
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+    padding-right: 13px;
+}
+
+.descricao {
+    margin-top: 15px;
+    padding: 0 10px 25px 10px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-bottom: 35px;
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: #00349A;
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    right: 55%;
+}
+
+.linkedin {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background:#ff6600;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;  
+    bottom: 0;
+    left: 0;
+  }
+  
+  footer p {  
+    text-align: center;
+    
+    color: black;
+    line-height: 1.5;
+  }
+  
+  footer p img {  
+    margin: 0 auto 0 auto;
+    width: 32px;
+    height: 32px;  
+  }
